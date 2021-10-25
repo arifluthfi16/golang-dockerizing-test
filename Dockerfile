@@ -11,4 +11,4 @@ RUN cd /build/golang-dockerizing-test/app && go build
 
 EXPOSE 4016
 
-ENTRYPOINT [ "/build/golang-dockerizing-test/app/"]
+ENTRYPOINT [ "/build/golang-dockerizing-test/app/golang-dockerizing-test"]
